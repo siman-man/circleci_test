@@ -2,6 +2,8 @@ machine:
   ruby:
     version: 2.3.1
 dependencies:
+  pre:
+   - sudo apt-get update; sudo apt-get install cmake openssl libssl-dev libssh2-1 libssh2-1-dev
   cache_directories:
     - 'vendor/bundle'
   override:
