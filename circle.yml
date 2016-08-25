@@ -6,4 +6,4 @@ dependencies:
     - bundle install
 test:
   override:
-    - ruby test_sample.rb
+    - bundle exec ruby test_sample.rb

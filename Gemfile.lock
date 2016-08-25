@@ -1,12 +1,14 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    minitest (5.9.0)
     rugged (0.24.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  minitest
   rugged
 
 BUNDLED WITH
