@@ -1,6 +1,6 @@
-require 'test/unit'
+require 'minitest/autorun'
 
-class TestSample < Test::Unit::TestCase
+class TestSample < Minitest::Test
   def test_hoge
     assert_equal 'Hello', 'Hello'
   end
