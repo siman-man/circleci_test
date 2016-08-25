@@ -7,7 +7,7 @@ class TestSample < Minitest::Test
   end
 
   def test_clone
-    url = 'https://github.com/siman-man/ruby-sandbox.git'
+    url = 'ssh://github.com/siman-man/ruby-sandbox.git'
     path = File.join(Dir.pwd, 'repos/sandbox')
     Rugged::Repository.clone_at(url, path) unless Dir.exist?(path)
 
