@@ -1,4 +1,4 @@
 source 'https://rubygems.org'
 
-gem 'rugged'
-gem 'minitest'
+gem 'rugged', require: false
+gem 'minitest', require: false
